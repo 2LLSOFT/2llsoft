@@ -1,16 +1,8 @@
-export const metadata = {
-  title: "2LLSOFT",
-  description: "Modern Software Solutions",
-};
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Home() {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <main style={{ padding: 40, background: "white", color: "black" }}>
+      <h1>2LLSOFT TEST</h1>
+      <p>Site çalışıyor.</p>
+    </main>
   );
 }
